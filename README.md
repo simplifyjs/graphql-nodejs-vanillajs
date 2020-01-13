@@ -1,5 +1,4 @@
-# Node JS, Express JS, and MongoDB CMS in EJS Template 
- Using Vanilla JS, Node JS, Express, MongoDB using GraphQL
+# Using Vanilla JS, Node JS, Express, MongoDB using GraphQL
  
 ## Tools
 - See [GraphQL](https://graphql.org/)
