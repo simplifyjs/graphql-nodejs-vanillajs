@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simplify JS Demo | Vanilla JS - GraphQL</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
+	</head>
+	<body class="d-flex justify-content-center">
+		<div class="container">
+			<h1 class="my-3">Vanilla JS - GraphQL</h1>
+			<section class="card mb-3">
+				<div class="card-body">
+					<h2 class="card-title">Add User</h2>
+					<div class="form-group">
+						<input type="text" class="form-control" id="add-user" placeholder="User name">
+						<button type="button" class="btn btn-primary mt-3" id="add-user-btn">Add User</button>
+					</div>
+					<div id="user-notification"></div>
+				</div>
+			</section>
+			<section class="card mb-3">
+				<div class="card-body">
+					<h2 class="card-title">Create Post Per User</h2>
+					<div class="form-group">
+						<select  class="form-control"  id="user-select">
+							<option selected>Select User</option>
+						</select>
+						<input type="text" class="form-control mt-3" id="add-post" placeholder="Post Title">
+						<button type="button" class="btn btn-info mt-3" id="add-post-btn">Add Post</button>
+					</div>
+					<div id="user-post"></div>	
+				</div>
+			</section>
+			<section class="card">
+				<div class="card-body">
+					<h2 class="card-title">Get Post Author</h2>
+					<div class="form-group">
+						<select class="form-control" id="get-post">
+							<option selected>Select Post</option>
+						</select>
+					</div>
+					<div id="user-result"></div>
+				</div>
+			</section>
+		</div>
+		<!-- Framework & Dependencies -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
