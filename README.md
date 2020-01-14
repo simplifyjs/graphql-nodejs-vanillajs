@@ -18,6 +18,10 @@
 - DOM
 - Bootstrap 4
 
+## GraphQL Constructing Type
+- Check backend/graphql/graphqlSchemaConstructiveType.js to view alternative way on constructing GraphQL
+- GraphQLSchema constructor to create a schema
+
 
 ## Author
 * [Simplify JS](http://simplifyjs.com) ⊂(・﹏・⊂)
